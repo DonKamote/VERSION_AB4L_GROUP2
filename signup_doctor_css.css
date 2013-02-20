@@ -1,0 +1,38 @@
+* {
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+div#wrapper {
+	border: 1px solid #000;
+	margin: 30px auto;
+	padding: 5px;
+	width: 90%;
+}
+
+table {
+	border: 0;
+	margin-left: 10%;
+}
+
+th {
+	font-weight: normal;
+	padding-right: 10px;
+	text-align: right;
+}
+
+input {
+	border-color: #ccc;
+	border-radius: 4px;
+}
+
+input#submit_btn {
+	background: #39f;
+	border: 1px inset #369;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #666;
+	color: #fff;
+	margin-left: 10%;
+	padding: 4px;
+}

@@ -1,0 +1,97 @@
+#profilePic{
+	position: absolute;
+	top: 40px;
+	left: 45px;
+}
+
+#main{
+	position: absolute;
+	top: 230px;
+	left: 20px;
+	
+	border: solid 1px;
+	height: 550px;
+	width: 1380px;
+	padding: 25px 20px;
+	
+	font-size: 50px;
+	z-index: -1;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+/*               CSS for controls 				*/
+
+#topControls{
+	position: absolute;
+	top: -10px;
+	left: 980px;
+}
+
+#pageControls{
+	position: absolute;
+	top: 165px;
+	left: 250px;
+	
+	font-size: 25px;
+}
+
+ul.controlsA li{
+	float: left;
+	margin: 0px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	list-style: none;
+	
+	
+	font-size: 14px;
+}
+
+ul.controlsB li {
+	float: left;
+	margin: 0 25px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	list-style: none;
+	
+	font-size: 28px;
+	font-family: monotype corsiva;
+	background-color: #fff;
+	color: #000;
+	border-radius: 10px 10px 10px 10px;
+	padding: 9px 9px;
+
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 0.8s;
+	-webkit-transition-timing-function: ease;
+}
+
+ul.controlsB li:hover{
+background-color: #999;
+color: #fff;
+
+}
+
+/*           end of controls               */
+
+/*		CSS for Appointments(Doctor)	*/
+
+#appointmentBox{
+	position: absolute;
+	top: 100px;
+	left: 70px;
+	
+}
+
+table.appointmentTable{
+	font-size: 22px;
+	text-align: center;
+}
+
+/*     end of appointment(Doctor)	*/
+
